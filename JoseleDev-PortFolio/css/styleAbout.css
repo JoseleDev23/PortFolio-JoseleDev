@@ -1,0 +1,77 @@
+.animated-info {
+    display: flex; /* Asegura que los elementos se alineen horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    flex-direction: column; /* Cambia la dirección a columna para apilar las animaciones */
+    height: auto; /* Permite que el contenedor ajuste su altura automáticamente */
+    padding: 20px 0; /* Espacio vertical adicional */
+    gap: 20px; /* Espacio entre los elementos */
+    overflow: hidden; /* Evita que los elementos se superpongan */
+}
+
+.animated-item {
+    font-size: 2rem; /* Aumenta el tamaño de la fuente */
+    opacity: 0; /* Oculta los elementos inicialmente */
+    transform: translateY(20px); /* Desplaza un poco hacia abajo */
+    animation: fadeInOut 10s infinite forwards; /* Cambia la duración total y añade 'infinite' */
+}
+
+/* Añade animaciones de entrada y salida */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Comienza invisible */
+        transform: translateY(25px); /* Desplaza hacia abajo */
+    }
+    15% {
+        opacity: 1; /* Aparece visible */
+        transform: translateY(0); /* Regresa a su posición original */
+    }
+    40% {
+        opacity: 0; /* Comienza a desaparecer  */
+    }
+    70% {
+        opacity: 0; /* Comienza a desaparecer */
+        transform: translateY(-25px); /* Desplaza hacia arriba */
+    }
+    100% {
+        opacity: 0; /* Termina invisible */
+    }
+}
+
+/* Temporizador para la animación */
+.animated-info .animated-item:nth-child(1) {
+    animation-delay: 0s; /* Retraso para la primera animación */
+}
+.animated-info .animated-item:nth-child(2) {
+    animation-delay: 2s; /* Retraso para la segunda animación */
+}
+.animated-info .animated-item:nth-child(3) {
+    animation-delay: 4s; /* Retraso para la tercera animación */
+}
+.animated-info .animated-item:nth-child(4) {
+    animation-delay: 6s; /* Retraso para la cuarta animación */
+}
+.animated-info .animated-item:nth-child(5) {
+    animation-delay: 8s; /* Retraso para la quinta animación */
+}
+
+h1 {
+    margin-bottom: 30px; /* Aumenta el espacio entre el h1 y las animaciones */
+}
+.about-image {
+    display: flex; /* Usar flex para centrar la imagen */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+}
+
+.about-image img {
+    padding-top: 200px;
+    max-height: 600px; /* Aumentar la altura máxima de la imagen */
+    width: auto; /* Mantener la relación de aspecto */
+    margin: auto; /* Asegurar que la imagen esté centrada */
+    display: block; /* Asegura que la imagen sea un bloque para centrarla correctamente */
+}
+
+.about-text {
+    padding-right: 20px; /* Añade un poco de espacio entre el texto y la imagen */
+}
