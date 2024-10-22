@@ -46,7 +46,6 @@ try {
     }
 
     // Configurar el contenido del correo
-    // Configurar el contenido del correo
     $mail->isHTML(true);
     $mail->Subject = 'Tienes un mensaje de tu Porfolio.';
     $mail->Body = "<!DOCTYPE html>
