@@ -31,7 +31,7 @@ Feel free to check out my portfolio to see the projects I've worked on and to le
 
 ## 💻 How to View My Portfolio
 
-You can visit the live version of my portfolio [here](https://your-portfolio-link.com). Alternatively, you can clone this repository and run it locally:
+You can visit the live version of my portfolio [here](https:www.joseledev.es). Alternatively, you can clone this repository and run it locally:
 
 ```bash
 # Clone the repository
@@ -42,7 +42,7 @@ cd portfolio
 
 # Open index.html in your browser
 
-´´´
+```
 📬 Contact Me
 Email: joseamsarmiento@gmail.com
 LinkedIn: José Antonio Muñoz Sarmiento
