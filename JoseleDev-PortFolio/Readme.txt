@@ -1,5 +1,6 @@
 Portfolio de José Antonio Muñoz Sarmiento
-¡Bienvenido a mi portafolio! Soy José Antonio Muñoz Sarmiento, un desarrollador web apasionado con experiencia en front-end y back-end, así como en análisis de datos. Mi objetivo es crear soluciones digitales intuitivas y eficientes.
+¡Bienvenido a mi portafolio! Soy José Antonio Muñoz Sarmiento, un desarrollador web apasionado con experiencia en front-end y back-end, así como en análisis de datos. 
+Mi objetivo es crear soluciones digitales intuitivas y eficientes.
 
 Contenido
 Este portafolio muestra mis proyectos y habilidades en desarrollo web. A continuación, se detallan algunas de las secciones y características destacadas:
