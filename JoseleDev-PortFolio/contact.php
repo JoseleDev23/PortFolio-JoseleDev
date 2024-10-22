@@ -18,7 +18,7 @@ try {
     $mail->Host = 'smtp.servidor-correo.net'; // Cambia esto por tu servidor SMTP
     $mail->SMTPAuth = true;
     $mail->Username = 'info@joseledev.es'; // Cambia esto por tu dirección de correo SMTP
-    $mail->Password = 'Numakira2324'; // Cambia esto por tu contraseña de correo
+    $mail->Password = ''; // Cambia esto por tu contraseña de correo
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Habilitar encriptación TLS
     $mail->Port = 587; // Puerto SMTP
 
