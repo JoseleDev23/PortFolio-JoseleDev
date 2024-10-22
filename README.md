@@ -53,50 +53,54 @@ cd PortFolio-JoseleDev
 
 
 
-
-José Antonio Muñoz Sarmiento - Portfolio
+#José Antonio Muñoz Sarmiento - Portfolio
 
 ¡Bienvenido a mi repositorio personal de portafolio! Este portafolio muestra parte de mi trabajo como Desarrollador Web Full Stack y mi trayectoria en el desarrollo web, incluyendo proyectos de front-end y back-end.
 
-🚀 Sobre mí
+## 🚀 Sobre mí
 
 Soy José Antonio Muñoz Sarmiento, un apasionado desarrollador web con experiencia en Python/Django, JavaScript y React/Redux. Siempre estoy dispuesto a aprender nuevas tecnologías y crecer en los campos de IA, Big Data y Machine Learning, áreas que estoy explorando actualmente en mis estudios de máster.
 
 ¡Siéntete libre de explorar mi portafolio para ver los proyectos en los que he trabajado y conocer más sobre mis habilidades y experiencia!
 
-🛠️ Tecnologías y Herramientas
+## 🛠️ Tecnologías y Herramientas
 
 Front-end: HTML5, CSS3, JavaScript, Bootstrap, FontAwesome
 Back-end: PHP
 Control de versiones: Git, GitHub
 Despliegue: Hosting
 Otros: PHPMailer
-🌟 Características de mi portafolio
+
+## 🌟 Características de mi portafolio
 
 Diseño responsive: Totalmente optimizado para visualización en móviles y escritorio.
 Galería de proyectos: Explora una muestra de mis proyectos de desarrollo.
 Formulario de contacto: ¡No dudes en ponerte en contacto conmigo para oportunidades de colaboración!
-📂 Estructura del proyecto
 
-/css - Archivos CSS para el estilo
-/images - Imágenes utilizadas en el portafolio (logos, fondos, etc.)
-/js - Archivos JavaScript para funcionalidades interactivas
-/projects - Una muestra de mi trabajo, incluyendo descripciones y enlaces a los proyectos en vivo
-💻 Cómo ver mi portafolio Puedes visitar la versión en vivo de mi portafolio aquí. Alternativamente, puedes clonar este repositorio y ejecutarlo localmente:
+## 📂 Estructura del proyecto
 
-bash
+- `/css` - Archivos CSS para el estilo
+- `/images` -´Imágenes utilizadas en el portafolio (logos, fondos, etc.)
+- `/js` -  Archivos JavaScript para funcionalidades interactivas
+- `/projects` -  Una muestra de mi trabajo, incluyendo descripciones y enlaces a los proyectos en vivo
+
+## 💻 Cómo ver mi portafolio Puedes visitar la versión en vivo de mi portafolio aquí. Alternativamente, puedes clonar este repositorio y ejecutarlo localmente:
+
+``` bash
 Copiar código
 # Clona el repositorio
 git clone https://github.com/joseledev/PortFolio-JoseleDev.git
 
 # Navega a la carpeta del proyecto
 cd PortFolio-JoseleDev
+```
 
 # Abre index.html en tu navegador
+
 📬 Contáctame
 
-🌐 Portafolio
+🌐 [Portfolio](https://www.joseledev.es/)
 
-💼 LinkedIn
+💼 [LinkedIn](https://www.linkedin.com/in/jose-antonio-muñoz-sarmiento-1b151637)
 
 ✉️ Correo: joseamsarmiento@gmail.com
