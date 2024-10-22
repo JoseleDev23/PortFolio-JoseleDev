@@ -51,9 +51,9 @@ cd PortFolio-JoseleDev
 
 ✉️ Email: joseamsarmiento@gmail.com
 
+ # Spanish
 
-
-#José Antonio Muñoz Sarmiento - Portfolio
+# José Antonio Muñoz Sarmiento - Portfolio
 
 ¡Bienvenido a mi repositorio personal de portafolio! Este portafolio muestra parte de mi trabajo como Desarrollador Web Full Stack y mi trayectoria en el desarrollo web, incluyendo proyectos de front-end y back-end.
 
