@@ -44,6 +44,9 @@ cd portfolio
 
 ```
 📬 Contact Me
-Email: joseamsarmiento@gmail.com
-LinkedIn: José Antonio Muñoz Sarmiento
-GitHub: JoséleDev
+
+🌐 [Portfolio](https://www.joseledev.es/)
+
+💼 [LinkedIn](https://www.linkedin.com/in/jose-antonio-muñoz-sarmiento-1b151637)
+
+✉️ Email: joseamsarmiento@gmail.com
