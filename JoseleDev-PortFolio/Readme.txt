@@ -28,11 +28,11 @@ Cómo Ejecutar el Proyecto
 Clonar el repositorio:
 
 bash
-git clone https://github.com/Yodel23/mi-portafolio.git
+git clone git clone https://github.com/joseledev/PortFolio-JoseleDev.git
 Navegar al directorio:
 
 bash
-cd mi-portafolio
+cd PortFolio-JoseleDev
 Abrir el archivo HTML en un navegador:
 
 bash
