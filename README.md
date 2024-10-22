@@ -35,10 +35,10 @@ You can visit the live version of my portfolio [here](https:www.joseledev.es). A
 
 ```bash
 # Clone the repository
-git clone https://github.com/joseledev/portfolio.git
+git clone https://github.com/joseledev/PortFolio-JoseleDev.git
 
 # Navigate into the project folder
-cd portfolio
+cd PortFolio-JoseleDev
 
 # Open index.html in your browser
 
