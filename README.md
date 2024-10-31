@@ -94,9 +94,9 @@ git clone https://github.com/joseledev/PortFolio-JoseleDev.git
 
 # Navega a la carpeta del proyecto
 cd PortFolio-JoseleDev
-```
 
 # Abre index.html en tu navegador
+```
 
 📬 Contáctame
 
