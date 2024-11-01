@@ -56,6 +56,15 @@
       padding: 0;
       margin: 0;
     }
+
+    .project-video {
+      width: 100%;
+      max-width: 812px;
+      height: auto;
+      aspect-ratio: 812 / 550;
+      /* Asegura el aspecto deseado */
+      object-fit: cover;
+    }
   </style>
 
   <!-- Bootstrap core CSS -->
@@ -216,20 +225,27 @@
               </div>
             </div>
 
-            <!-- <div class="item">
+            <div class="item">
               <div class="project-info">
-                <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
+                <!-- Video en lugar de imagen con clase adicional para tamaño específico -->
+                <video class="project-video" controls>
+                  <source src="images/project/VideoWishList.webm" type="video/webm">
+                  Tu navegador no soporta el elemento de video.
+                </video>
+
                 <div class="tech-icons">
-                  <i class="fab fa-vuejs tech-icon" title="Vue.js"></i>
-                  <i class="fab fa-axios tech-icon" title="Axios"></i>
+                  <i class="fab fa-react tech-icon" title="React"></i>
+                  <i class="fab fa-html5 tech-icon" title="HTML5"></i>
+                  <i class="fab fa-css3-alt tech-icon" title="CSS3"></i>
                 </div>
-                <a href="https://github.com/tu-usuario/proyecto04" class="github-link" target="_blank">
+                <p>React Project: Wish List</p>
+                <a href="https://github.com/JoseleDev23/react-course-wishlist" class="github-link" target="_blank">
                   <i class="fab fa-github" title="View on GitHub"></i>
                 </a>
               </div>
             </div>
 
-            <div class="item">
+            <!-- <div class="item">
               <div class="project-info">
                 <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
                 <div class="tech-icons">
