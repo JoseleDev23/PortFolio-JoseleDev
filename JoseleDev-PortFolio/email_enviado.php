@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
         body {
             background-color: #B968C7;
             display: flex;
@@ -37,13 +43,11 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-            /* Sombra del contenedor */
             display: flex;
-            /* Para centrar el contenido */
             flex-direction: column;
-            /* Organiza los elementos en columna */
             justify-content: center;
-            /* Centra verticalmente */
+            flex-grow: 1;
+            /* Esto hace que el contenedor de la confirmación ocupe el espacio disponible y empuje el footer hacia abajo */
         }
 
         .confirmation-container h1 {
@@ -74,16 +78,16 @@
         /* Estilos del footer */
         .footer {
             background-color: #fff;
-            /* Color de fondo del footer */
             width: 100%;
-            /* Ocupa todo el ancho */
+            padding: 20px 0;
+            text-align: center;
         }
 
         .footer p {
             color: #333;
-            /* Cambiar el color de las fuentes en el footer */
             margin: 0;
-            /* Sin margen */
+            text-align: center;
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -104,7 +108,7 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <p class="copyright-text text-center">Copyright &copy; 2024. All rights reserved</p>
-                    <p class="copyright-text text-center"> This PortFolio is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a rel="nofollow" href="https://www.linkedin.com/in/jose-antonio-mu%C3%B1oz-sarmiento-1b151637/"> JoseleDev</a></p>
+                    <p class="copyright-text text-center"> This PortFolio is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a rel="nofollow" href="https://www.linkedin.com/in/joseledev/"> JoseleDev</a></p>
                 </div>
             </div>
         </div>
